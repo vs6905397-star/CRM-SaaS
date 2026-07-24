@@ -17,7 +17,7 @@ import path from "path"
 
 const app = express()
 app.use(cors({
-    origin: "https://crm-saas-w8wq.onrender.com",
+    origin: "https://crm-saas-frontend.onrender.com",
     credentials:true
 }));
 
