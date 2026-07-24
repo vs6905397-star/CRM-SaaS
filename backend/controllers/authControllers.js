@@ -45,7 +45,8 @@ export const singup = async (req, res) => {
         //set cookie
         res.cookie("token", token, {
             httpOnly: true,
-            sameSite: "strict",
+            secure: true,
+            sameSite: "none",
             maxAge: 7*24*60*60*1000,
 
         });
@@ -99,7 +100,8 @@ export const login = async (req, res) => {
 
          res.cookie("token", token, {
             httpOnly: true,
-            sameSite: "strict",
+            secure: true,
+            sameSite: "none",
             maxAge: 7*24*60*60*1000
          })
 
@@ -121,7 +123,8 @@ export const logout = async (req, res) => {
      try {
        res.cookie("token",  {
             httpOnly: true,
-            sameSite: "strict",
+            secure: true,
+            sameSite: "none",
             maxAge: 7*24*60*60*1000
          })
 
