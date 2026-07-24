@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from "express"
 import dotenv from "dotenv"
 
@@ -16,7 +17,7 @@ import path from "path"
 
 const app = express()
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://crm-saas-w8wq.onrender.com",
     credentials:true
 }));
 
