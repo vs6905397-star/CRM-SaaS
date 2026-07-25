@@ -106,11 +106,11 @@ Add screenshots here:
 
 Frontend
 
-[(Add your frontend URL)](https://crm-saas-frontend.onrender.com)
+(https://crm-saas-frontend.onrender.com)
 
 Backend API
 
-[(Add your backend URL)](https://crm-saas-w8wq.onrender.com)
+(https://crm-saas-w8wq.onrender.com)
 
 ---
 
