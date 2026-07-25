@@ -131,7 +131,7 @@ Backend API
 Vansh Sharma
 
 GitHub:
-[https://github.com/your-github-username](https://github.com/vs6905397-star)
+(https://github.com/vs6905397-star)
 
 ---
 
